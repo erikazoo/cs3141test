@@ -15,7 +15,7 @@ jobs:
           java-version: '17'
        # CI
       - name: Compile
-        run: javac Welcome.java
+        run: javac welcome.java
       - name: Run
         run: java Welcome
         # CD
